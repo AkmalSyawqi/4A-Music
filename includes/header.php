@@ -8,20 +8,20 @@ include("includes/classes/Playlist.php");
 
 //session_destroy(); LOGOUT
 
-if(isset($_SESSION['userLoggedIn'])) {
+if (isset($_SESSION['userLoggedIn'])) {
 	$userLoggedIn = new User($con, $_SESSION['userLoggedIn']);
 	$username = $userLoggedIn->getUsername();
 	echo "<script>userLoggedIn = '$username';</script>";
-}
-else {
+} else {
 	header("Location: register.php");
 }
 
 ?>
 
 <html>
+
 <head>
-	<title>Welcome to Slotify!</title>
+	<title>Welcome to 4A music!</title>
 
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
