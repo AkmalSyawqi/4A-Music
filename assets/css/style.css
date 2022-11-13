@@ -22,7 +22,7 @@ body {
 
 #nowPlayingBarContainer {
 	width: 100%;
-    background-color: #282828;
+    background-color: #FFD60A;
     bottom: 0;
     position: fixed;
     min-width: 620px;
@@ -138,10 +138,13 @@ body {
     display: inline-block;
     width: 100%;
 }
+.trackName{
+    color: black;
+}
 
 #nowPlayingLeft .trackInfo .artistName span {
 	font-size: 12px;
-    color: #a0a0a0;
+    color: #000000;
 }
 
 .volumeBar {
@@ -360,7 +363,7 @@ body {
 }
 
 .tracklistRow .trackInfo .trackName {
-    color: #fff;
+    color: #000000;
     margin-bottom: 7px;
 }
 
