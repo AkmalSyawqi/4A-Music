@@ -22,7 +22,7 @@ body {
 
 #nowPlayingBarContainer {
 	width: 100%;
-    background-color: #FFD60A;
+    background-color: #5c5a4f;
     bottom: 0;
     position: fixed;
     min-width: 620px;
